@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <script src="script-pokemon.js"></script>
+        <title>princhecha chikorita!!!</title>
+    </head>
+    <body>
+        <header class="header_pokemon">
+            <a href="index.html" class="btn btn-dark btn-lg" role="button">Página principal</a>
+            <h1 class="text-align"><b>┊ ¡ Adivina el pokémon ! ┊</b></h1>
+            <p></p>
+        </header>
+        <main>
+            <div class="container-pokemon">
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 1 :3 (ech fachil)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q1 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '1')" class="btn btn-outline-dark btn-lg correct">Chikorita</button>
+                            <button type="button" onclick="selectButton(this, '1')" class="btn btn-outline-dark btn-lg incorrect">Sylveon</button>
+                            <button type="button" onclick="selectButton(this, '1')" class="btn btn-outline-dark btn-lg incorrect">Vaporeon</button>
+                            <button type="button" onclick="selectButton(this, '1')" class="btn btn-outline-dark btn-lg incorrect">Emolga</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q1">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <img src="images/153.png" class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 2 :3 (echte te guchta)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q2 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '2')" class="btn btn-outline-dark btn-lg incorrect">Rayquaza-jolteon</button>
+                            <button type="button" onclick="selectButton(this, '2')" class="btn btn-outline-dark btn-lg correct">Sylveon</button>
+                            <button type="button" onclick="selectButton(this, '2')" class="btn btn-outline-dark btn-lg incorrect">Vaporeon</button>
+                            <button type="button" onclick="selectButton(this, '2')" class="btn btn-outline-dark btn-lg incorrect">Emolga</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q2">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <img src="images/1200px-Sylveon-blackedout.png" class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 3 :3 (achuda)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q3 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '3')" class="btn btn-outline-dark btn-lg incorrect">Among us</button>
+                            <button type="button" onclick="selectButton(this, '3')" class="btn btn-outline-dark btn-lg correct">Amoonguss</button>
+                            <button type="button" onclick="selectButton(this, '3')" class="btn btn-outline-dark btn-lg incorrect">Amoguss</button>
+                            <button type="button" onclick="selectButton(this, '3')" class="btn btn-outline-dark btn-lg incorrect">Amoogussy</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q3">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <img src="images/591-blackedout.png" class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 4 :3 (chi ech un pokemon)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q4 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '4')" class="btn btn-outline-dark btn-lg incorrect">Hanni</button>
+                            <button type="button" onclick="selectButton(this, '4')" class="btn btn-outline-dark btn-lg correct">Haerin</button>
+                            <button type="button" onclick="selectButton(this, '4')" class="btn btn-outline-dark btn-lg incorrect">Minji</button>
+                            <button type="button" onclick="selectButton(this, '4')" class="btn btn-outline-dark btn-lg incorrect">Pikachu</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q4">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <img src="images/file.png" class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 5 :3 (tienech que adivinar con el audio :3)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q5 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '5')" class="btn btn-outline-dark btn-lg incorrect">Pichu</button>
+                            <button type="button" onclick="selectButton(this, '5')" class="btn btn-outline-dark btn-lg incorrect">Pikachu</button>
+                            <button type="button" onclick="selectButton(this, '5')" class="btn btn-outline-dark btn-lg correct">Eevee</button>
+                            <button type="button" onclick="selectButton(this, '5')" class="btn btn-outline-dark btn-lg incorrect">Hydreigonrayquaza</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q5">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <br><br><br>
+                        <audio controls>
+                            <source src="sounds/eevee.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 6 :3 (ech fachil)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q6 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '6')" class="btn btn-outline-dark btn-lg incorrect">Machamp</button>
+                            <button type="button" onclick="selectButton(this, '6')" class="btn btn-outline-dark btn-lg incorrect">Gyratina</button>
+                            <button type="button" onclick="selectButton(this, '6')" class="btn btn-outline-dark btn-lg incorrect">Zygarde</button>
+                            <button type="button" onclick="selectButton(this, '6')" class="btn btn-outline-dark btn-lg correct">Piplup</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q6">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <br><br><br>
+                        <audio controls>
+                            <source src="sounds/voice_piplup.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 7 :3 (creo)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q7 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '7')" class="btn btn-outline-dark btn-lg correct">Rei</button>
+                            <button type="button" onclick="selectButton(this, '7')" class="btn btn-outline-dark btn-lg incorrect">kittykittykissme</button>
+                            <button type="button" onclick="selectButton(this, '7')" class="btn btn-outline-dark btn-lg incorrect">Wonyoung</button>
+                            <button type="button" onclick="selectButton(this, '7')" class="btn btn-outline-dark btn-lg incorrect">imabaddiebbbaddie</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q7">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <br><br><br>
+                        <audio controls>
+                            <source src="sounds/dear_priest.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 8 :3 (chi ech un pokemon)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q8 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '8')" class="btn btn-outline-dark btn-lg incorrect">Pikachu</button>
+                            <button type="button" onclick="selectButton(this, '8')" class="btn btn-outline-dark btn-lg correct">Squirtle</button>
+                            <button type="button" onclick="selectButton(this, '8')" class="btn btn-outline-dark btn-lg incorrect">Charmander</button>
+                            <button type="button" onclick="selectButton(this, '8')" class="btn btn-outline-dark btn-lg incorrect">MarzipanSky</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q8">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <img src="images/squirtle-blackedout.png" class="img-thumbnail">
+                    </div>
+                </div>
+                <div class="section section-pokemon">
+                    <div class="left-part">
+                        <h4>pokémon 9 :3 (de que pais es esta bandera :3)</h4>
+                        <hr class="hr-custom-narrow">
+                        <div class="buttons-q9 buttons-pokemon" >
+                            <button type="button" onclick="selectButton(this, '9')" class="btn btn-outline-dark btn-lg incorrect">Australia</button>
+                            <button type="button" onclick="selectButton(this, '9')" class="btn btn-outline-dark btn-lg incorrect">Rumanía</button>
+                            <button type="button" onclick="selectButton(this, '9')" class="btn btn-outline-dark btn-lg correct">Saltydom</button>
+                            <button type="button" onclick="selectButton(this, '9')" class="btn btn-outline-dark btn-lg incorrect">Tailandia</button>
+                        </div>
+                        <br>
+                        <hr class="hr-custom-blue less-width">
+                        <p id="Q9">...</p>
+                        <hr class="hr-custom-blue less-width">
+                    </div>
+                    <div class="right-part">
+                        <img src="images/salty.png" class="img-thumbnail">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer-pokemon text-align">
+            <h2>Tu resultado es :3 </h2><br>
+            <h3 id="final-result"></h3>
+            <br><br><br>
+        </footer>
+    </body>
